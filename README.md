@@ -18,4 +18,4 @@ Spark Application: To process logs and calculate moving window counts.
 
 
 ## How to Get Satrted?
-_____________________________________________________________________________________________________
+
