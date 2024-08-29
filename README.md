@@ -1,5 +1,5 @@
-#Kafka_Metrics_And_Logs_Pipeline
-
+## Kafka_Metrics_And_Logs_Pipeline
+**overview**
 Design a Multi Node Kafka Cluster have two topics. One topic for the agents of the 10 servers which monitor resources consumption, the other topic for the agent of the load balancer which monitor logs. 
 
 After that, build a consumers for the metrics that should send them to a relational database. For the logs, write a spark application that consumes them and calculate a moving windows count of every operation 
@@ -16,4 +16,6 @@ Relational Database(MySQL): For storing metrics.
 
 Spark Application: To process logs and calculate moving window counts.
 
-#How to Get Satrted?
+
+## How to Get Satrted?
+_____________________________________________________________________________________________________
